@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration|Online Tourism</title>
+  <link href="style2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+          <h1>Tourism</h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gall.html">Gallery</a></li>
+            <li><a href="booking.html">Registration</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+          </ul>
+        </nav>  
+    </header>
+    <main>
+        <form id="booking-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" required>
+            <br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+            <br>
+            <label for="time">Time:</label>
+            <input type="time" id="time" required>
+            <br>
+            <label for="party-size">Party size:</label>
+            <input type="number" id="party-size" min="1" max="10" required>
+            <br>
+            <button type="submit">Book</button>
+          </form>
+          
+          <div id="booking-confirmation" style="display: none;">
+            Thank you for your booking!
+          </div>
+    </main>
+
+<!-- 
+    <footer>
+        <p>Samrat's project copyright claim reserved</p>
+      </footer> -->
+  
+  
+  
+  
+  
+  
+  
+  <script src="script1.js"></script> 
+  </body>
+  
+  </html>
+  
